@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meeting Dave</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body { background-color: ivory; }
+    .profile-img { max-width: 300px; border-radius: 10px; object-fit: cover; }
+    .section-title { font-weight: bold; margin-top: 1rem; margin-bottom: 0.5rem; text-decoration: underline; }
+    @media (max-width: 767px) { .profile-row { flex-direction: column !important; text-align: center; } .profile-img { margin-bottom: 1rem; } }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="../MRKTs.jpg" alt="MRKT" height="30"> MRKT Marketing Solutions</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container my-5">
+  <h1 class="text-center fw-bold mb-5">Meeting Dave</h1>
+  <div class="d-flex align-items-start profile-row gap-4 flex-wrap">
+    <div class="flex-shrink-0">
+      <img src="../Assets/images/formal.jpg" alt="Dave" class="profile-img">
+    </div>
+    <div class="flex-grow-1">
+      <p>Hello! I’m Dave, part of MRKT Marketing Solutions. I specialize in strategic planning and brand development, helping clients achieve measurable results.</p>
+      <h3 class="section-title">Experience</h3>
+      <p>Worked on multiple campaigns focusing on brand positioning, market research, and social media strategy.</p>
+      <h3 class="section-title">Skills and Qualities</h3>
+      <p>Creative problem-solving, leadership, marketing analysis, and communication skills.</p>
+      <h3 class="section-title">Personality</h3>
+      <p>Friendly, analytical, and collaborative. I enjoy brainstorming ideas and implementing creative marketing solutions.</p>
+    </div>
+  </div>
+</div>
+
+<footer class="py-5 my-5 border-top text-center">
+  <div class="mt-3">
+    <a href="index.html" style="color: black; font-size: 1.5rem; text-decoration: none;">
+      <i class="bi bi-arrow-up-circle-fill"></i> Back to Home
+    </a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
